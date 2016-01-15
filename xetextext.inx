@@ -1,0 +1,12 @@
+<inkscape-extension>
+  <_name>XeLaTex Text</_name>
+  <id>org.ekips.filter.xelatextext</id>
+  <dependency type="executable" location="extensions">xelatextext.py</dependency>
+  <dependency type="executable" location="extensions">inkex.py</dependency>
+  <effect>
+    <object-type>all</object-type>
+  </effect>
+  <script>
+    <command reldir="extensions" interpreter="python">xelatextext.py</command>
+  </script>
+</inkscape-extension>
