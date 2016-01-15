@@ -5,7 +5,11 @@ See the installation instructions from the web site shown above. XeTex (XeLaTex)
 XeTexText allows one to do the same things as TexText does, but uses XeTex core instead of LaTex one. Thus you can choose the system fonts. An example of preamble:
 
 \usepackage{fontspec,kantlipsum}
+
 \fontsize{9.5pt}{9.5pt}
+
 \setmainfont{DroidSerif}
+
 \usepackage{mathtext}
+
 \usepackage{amsmath,amsfonts,amssymb}
